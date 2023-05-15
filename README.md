@@ -3,6 +3,7 @@ This repository is for including useful prompts in my daily life.
 
 # Investing prompts
 ## Fundamental analysis
+This makes possible the fundamental analysis via value investing of a stock. Introduce the stock name, the ticker and the actual share price. Moreover, add to the end all additional data which can be of use.
 ```
 $STOCK_NAME$ =
 $TICKER$ = 
@@ -15,5 +16,5 @@ You will analyze every aspect of the stock which can be relevant for determining
 Moreover, analyze the intrinsic value with the discounted cash flow (DCF) analysis.
 
 I will add actual data (income statement, balance sheet, cash flow) which can be of help of what you already know:
-
+$ADD_POSSIBLE_USEFUL_DATA$
 ```
