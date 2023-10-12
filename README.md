@@ -4,7 +4,12 @@ This repository is for including useful and test prompts in my daily life.
 # How to make useful prompts
 ## Patterns
 - Persona pattern. Ask the LLM to act as a persona, animal, animated object...etc. Make the LLM answer as a real professional.
-
+- Few shot learning pattern. Pass some examples to the prompt in order to show the LLM how to answer.
+- Structure pattern. Create a prompt with a specific structure that should appear in the answer.
+## Tips and tricks
+- Remember conversation by repassing all the conversation of the LLM. 
+- Be specific with the prompts in order to avoid generic responses.
+- Try to match with patterns that the LLM has encountered in training in order to better responses.
 # Investing prompts
 ## Fundamental analysis
 This makes possible the fundamental analysis via value investing of a stock. Introduce the stock name, the ticker and the actual share price. Moreover, add to the end all additional data which can be of use. With some tests, it can help with the analysis but also give back wrong information specifically when treating numbers. 
