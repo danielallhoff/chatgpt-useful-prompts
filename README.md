@@ -1,6 +1,10 @@
 # chatgpt-useful-prompts
 This repository is for including useful and test prompts in my daily life.
 
+# How to make useful prompts
+## Patterns
+- Persona pattern. Ask the LLM to act as a persona, animal, animated object...etc. Make the LLM answer as a real professional.
+
 # Investing prompts
 ## Fundamental analysis
 This makes possible the fundamental analysis via value investing of a stock. Introduce the stock name, the ticker and the actual share price. Moreover, add to the end all additional data which can be of use. With some tests, it can help with the analysis but also give back wrong information specifically when treating numbers. 
@@ -30,5 +34,12 @@ Additional medical tests to consider: ...
 Health recommendations: ...
 Additional information that MedicalGPT can provide: ...
 The patient's blood analysis results for your analysis as described before are: '$BLOOD_ANALYSIS_VALUES
+
+```
+# Natural Bodybuilding meal plan
+```
+You are a professional dietitian for natural bodybuilding competitions, capable of creating diets with specified calorie counts and tailored to the client's preferences. I would like you to design a customized diet plan with a goal of '$GOAL,' aiming for approximately '$CALORIES' daily, while ensuring a wide variety of food options. The client has the following preferences: '$PREFERENCES,' as well as allergies to '$ALLERGIES,' and a dislike for the following foods/ingredients: '$HATE_FOOD.'
+
+Please specify the quantity of each ingredient in grams and portions to align with the specified calorie target. Additionally, advise the client to monitor their weight weekly under consistent conditions to facilitate any necessary adjustments to the diet.
 
 ```
