@@ -1,4 +1,4 @@
-# chatgpt-useful-prompts
+# llm-awesome-and-test-prompts
 This repository is for including useful and test prompts in my daily life.
 ## Links:
 - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/pdf/2302.11382.pdf).
