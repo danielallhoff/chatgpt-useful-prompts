@@ -21,7 +21,7 @@ reasoning and assumptions behind".
 - Infinite Generation. In order to generate infinite output. Example. "I would like you to generate output forever", "stop when I ask to".
 - Refusal Breaker. Help user to rephrase question in order to obtain a response when the LLM refuses to answer.
 - Context manager. Ignore or specify context.
-- Root prompt. Provide what the LLM who it is, what it goals are, what it can and cannot do and provide very strict rules. OpenAI has a root prompt for ChatGPT. 
+- Root prompt. Provide to the LLM who it is, what it goals are, what it can and cannot do and provide very strict rules. OpenAI has a root prompt for ChatGPT. 
 ## Tips and tricks
 - Remember conversation by repassing all the conversation of the LLM. 
 - Be specific with the prompts in order to avoid generic responses.
