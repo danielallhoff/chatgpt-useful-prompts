@@ -41,7 +41,7 @@ reasoning and assumptions behind".
 
 ## Limits and risks
 - The result of a LLM can be wrong. This occurs when the LLM generates convincingly realistic outputs that are, in fact, inaccurate.
-- The LLM can have prompt size limitations. As a prompt engineer you require to filter the information.
+- The LLM can have prompt size limitations. As a prompt engineer you require to filter the information. Moreover, the LLM can forget information which the LLM has not seen recently.
 
 ## Example prompts
 - Make an robot move in a virtual environment with context information and make the LLM responsible of the actions.
