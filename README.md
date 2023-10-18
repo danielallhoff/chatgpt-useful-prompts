@@ -45,6 +45,7 @@ reasoning and assumptions behind".
 
 ## Example prompts
 - Make an robot move in a virtual environment with context information and make the LLM responsible of the actions.
+- Tweets sentimental analysis with few shot learning prompt.
 # Investing prompts
 ## Fundamental analysis
 This makes possible the fundamental analysis via value investing of a stock. Introduce the stock name, the ticker and the actual share price. Moreover, add to the end all additional data which can be of use. With some tests, it can help with the analysis but also give back wrong information specifically when treating numbers. 
