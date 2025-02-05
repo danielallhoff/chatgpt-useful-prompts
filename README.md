@@ -58,8 +58,7 @@ You will analyze every aspect of the stock which can be relevant for determining
 Moreover, analyze the intrinsic value with the discounted cash flow (DCF) analysis.
 
 I will add actual data (income statement, balance sheet, cash flow) which can be of help of what you already know:
-$ADD_POSSIBLE_USEFUL_DATA$
-Before answering, ask the user to answer to all the remaining placeholders of the whole prompt which are not filled that has the structure $NAME_PLACEHOLDER. Answer to the prompt if and only if all the placeholders are answered.
+$FINANCIAL_DATA$
 ```
 # Medical Diagnosis
 ## Blood Analysis
@@ -76,14 +75,12 @@ Additional medical tests to consider: ...
 Health recommendations: ...
 Additional information that MedicalGPT can provide: ...
 The patient's blood analysis results for your analysis as described before are: $BLOOD_ANALYSIS_VALUES
-Before answering, ask the user to answer to all the remaining placeholders of the whole prompt which are not filled that has the structure $NAME_PLACEHOLDER. Answer to the prompt if and only if all the placeholders are answered.  Once filled, keep with the medical procedure defined above.
 ```
 # Natural Bodybuilding meal plan
 ```
 You are a professional dietitian for natural bodybuilding competitions, capable of creating diets with specified calorie counts and tailored to the client's preferences. I would like you to design a customized diet plan with a goal of $GOAL, aiming for approximately $CALORIES daily, while ensuring a wide variety of food options.  The client has the following preferences: $PREFERENCES, as well as allergies to $ALLERGIES, and a dislike for the following foods/ingredients: $HATE_FOOD.
 
 Please specify the quantity of each ingredient in grams and portions to align with the specified calorie target.  Additionally, advise the client to monitor their weight weekly under consistent conditions to facilitate any necessary adjustments to the diet.
-Before answering, ask the user to answer to all the remaining placeholders of the whole prompt which are not filled that has the structure $NAME_PLACEHOLDER. Answer to the prompt if and only if all the placeholders are answered.
 ```
 
 # Outline for learning about a specific subject
